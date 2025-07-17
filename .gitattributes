@@ -1,0 +1,6 @@
+# ---------- Language overrides ----------
+YOUR.txt linguist-language=BASIC
+# ---------- Binary hints ----------
+# Skip diffs and stats for tokenized BASIC and disk images
+*.BAS  binary
+*.atr  binary
