@@ -1,0 +1,22 @@
+10 GRAPHICS 0
+20 REM This was my first programming language: BASIC for ATARI 800XL
+30 DIM NAME$(20)
+40 ? "Enter your name: ";:INPUT NAME$
+50 GRAPHICS 0
+60 ? "I'll say it only 5 times!!!"
+70 ? ""
+80 FOR N=1 TO 5
+90 ? ""
+100 GOSUB 300
+110 ? N;" Hola ";NAME$
+120 NEXT N
+130 ? ""
+140 GOSUB 300
+150 ? "Ok? Never forget it!"
+160 GOSUB 300
+170 ? "Bye, bye, my friend! :)"
+180 GOSUB 300
+190 GRAPHICS 0
+200 END 
+300 FOR D=1 TO 2000:NEXT D
+310 RETURN 
